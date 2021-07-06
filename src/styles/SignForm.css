@@ -1,3 +1,26 @@
 .signForm {
   text-align: left;
+  width: 90%;
+  margin-right: 0%;
 }
+
+.enterName {
+  font-weight: bold;
+}
+.validationWarning {
+  margin-left: 2ch;
+  font-size: small;
+  color: red;
+}
+
+.btn {
+  float: right;
+  margin-top: 1ch;
+
+  background-color: rgb(0, 0, 70);
+  color: goldenrod;
+}
+
+/* input:invalid {
+    
+} */

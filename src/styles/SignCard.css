@@ -1,6 +1,6 @@
 .signCard {
-  width: 75rem;
-  /* Fix these.  They don't work yet */
+  width: 40ch;
   border-style: double;
-  border-width: 5ch;
+  border-color: black;
+  border-width: 1ch;
 }
