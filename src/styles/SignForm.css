@@ -27,3 +27,19 @@
 .formInput {
   width: 18rem;
 }
+
+.noCostDisplay {
+  display: none;
+}
+
+.costDisplay {
+  color: white;
+  background-color: red;
+  width: 4ch;
+  font-size: 2ch;
+  padding-top: 0.25ch;
+  padding-bottom: 0.25ch;
+  position: relative;
+  top: 4ch;
+  left: 17.5ch;
+}
