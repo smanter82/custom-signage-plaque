@@ -3,6 +3,9 @@ import { Form, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/SignForm.css";
 
+//Look up how to have input text pop up automatically in capitals
+//Have character count pop up onsubmit in form of dollar amount.
+
 export default function SignForm() {
   const [signName, setName] = useState({
     signName: "",
