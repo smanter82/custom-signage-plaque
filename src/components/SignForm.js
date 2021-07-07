@@ -55,7 +55,7 @@ export default function SignForm() {
           type="text"
           onChange={(event) => setSignName(event)}
         ></Form.Control>
-      </Form>
+      </Form>{" "}
       <Button className="btn" type="submit" onClick={handleSubmit}>
         SHOW COST
       </Button>

@@ -7,12 +7,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 export default function SignCard() {
   return (
     <Card className="signCard mx-auto">
-      <Card.Title className="cardTitle">CUSTOM SIGNAGE</Card.Title>
-      <Card.Body className="mx-auto">
+      <Card.Title className="cardTitle ">CUSTOM SIGNAGE</Card.Title>
+      <Card.Body className="mx-auto cardBody">
         <SignForm></SignForm>
-        {/* <Button className="btn" type="submit">
-          SHOW COST
-        </Button> */}
       </Card.Body>
     </Card>
   );
