@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.cardRow {
+  height: 100vh;
+}
+
+.cardCol {
+  justify-content: center;
+}

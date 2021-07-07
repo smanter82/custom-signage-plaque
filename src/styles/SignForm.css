@@ -7,10 +7,13 @@
 .enterName {
   font-weight: bold;
 }
-.validationWarning {
+.formLabel {
   margin-left: 2ch;
-  font-size: small;
+  font-size: x-small;
   color: red;
+}
+.formLabelNoShow {
+  display: none;
 }
 
 .btn {
@@ -21,6 +24,6 @@
   color: goldenrod;
 }
 
-/* input:invalid {
-    
-} */
+.formInput {
+  width: 18rem;
+}
