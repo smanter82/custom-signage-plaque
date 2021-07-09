@@ -37,9 +37,8 @@
   background-color: red;
   width: 4ch;
   font-size: 2ch;
-  padding-top: 0.25ch;
-  padding-bottom: 0.25ch;
   position: relative;
-  top: 4ch;
+  top: 2ch;
   left: 17.5ch;
+  padding-left: 0.5ch;
 }

@@ -42,11 +42,13 @@ export default function SignForm() {
 
   return (
     <>
-      <h2 className={showSignCost ? "costDisplay" : "noCostDisplay"}>
-        ${signName.signCost}
-      </h2>
       <Form className="signForm">
-        <Form.Label className="enterName">Enter name:</Form.Label>
+        <Form.Label className={showSignCost ? "costDisplay" : "noCostDisplay"}>
+          ${signName.signCost}
+        </Form.Label>
+        <Form.Label className={showSignCost ? "noCostDisplay" : "enterName"}>
+          Enter name:
+        </Form.Label>
         <Form.Label className={showFormLabel ? "formLabel" : "formLabelNoShow"}>
           Please enter a name below...
         </Form.Label>
