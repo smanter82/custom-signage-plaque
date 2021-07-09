@@ -26,6 +26,7 @@
 
 .formInput {
   width: 18rem;
+  text-transform: uppercase;
 }
 
 .noCostDisplay {
